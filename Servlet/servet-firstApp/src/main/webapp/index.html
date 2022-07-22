@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Information System</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+ <nav class="navbar navbar-expand-md navbar-dark" style="background-color: tomato">
+<h2>Student Information System</h2>
+</nav>
+<div class="container col-md-5">
+                <div class="card">
+                    <div class="card-body">
+				<form method="post" action="formdata">
+				  <fieldset>
+				    <legend>Add Student Details</legend> 
+				    Full Name: <input type="text" name="username" class="form-control"/><br />
+				    Email: <input type="text" name="email" class="form-control"/><br />
+				    Birthday (YYYY-MM-DD): <input type="text" name="dob" class="form-control"/><br />
+				    Gender: <input type="radio" name="gender" value="m" checked  />Male
+				    <input type="radio" name="gender" value="f" />Female<br /><br />
+				    Medium:  <select name = "medium">
+				      <option value="sin">Sinhala</option>
+				      <option  value="eng" >English</option>
+				    </select>
+				  </fieldset>
+				  
+				  <br /><br />
+				 
+				  <fieldset>
+				    <legend>Subjects</legend>
+				    <input type="checkbox" name="subject" value="cs" checked />Computer Science
+				    <input type="checkbox" name="subject" value="chem" />Chemistry
+				    <input type="checkbox" name="subject" value="phy" />Physics
+				    <input type="checkbox" name="subject" value="bio" />Biology
+				    <input type="checkbox" name="subject" value="stat" />Statistics
+				  </fieldset>
+				 
+				  <br /><br />
+				  
+				  <input type="hidden" name="secret" value="888" />
+				  <input type="submit" value="submit" />
+				  <input type="reset" value="reset" />
+				</form>
+				</div>
+				</div>
+				</div>
+</body>
+</html>
