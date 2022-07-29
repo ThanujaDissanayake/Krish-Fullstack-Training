@@ -1,0 +1,4 @@
+# Created at 2022-07-26T06:13:07.999
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Acadamic&Career\Virtusa\Krish-Fullstack-Training\microservices\RentaCar\rentcloud-commons\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
